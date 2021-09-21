@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkbox example</title>
+  
+
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+</head>
+<body>
+
+
+  <script type="text/javascript">
+  window.fbAsyncInit = function() {
+
+      FB.init({
+        appId      : '105391664256044',
+        xfbml      : true,
+        version    : 'v2.6'
+      });
+console.log(FB.Event.subscribe);
+      FB.Event.subscribe('messenger_checkbox', function(e) {
+        console.log("messenger_checkbox event");
+        console.log(e);
+
+        if (e.event == 'rendered') {
+          console.log("Plugin was rendered");
+        } else if (e.event == 'checkbox') {
+          var checkboxState = e.state;
+          console.log("Checkbox state: " + checkboxState);
+        } else if (e.event == 'not_you') {
+          console.log("User clicked 'not you'");
+        } else if (e.event == 'hidden') {
+          console.log("Plugin was hidden");
+        }
+        
+      });
+    }; 
+  </script>   
+
+
+</body>
+</html>

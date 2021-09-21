@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #2d2d2d;  
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
+}
+body{
+    -webkit-font-smoothing:antialiased;color:inherit !important
+}
+:root {   
+    --color-neutral-1: #000;
+    --color-neutral-2: #dbdbdb;     
+    --color-neutral-3: rgb(219, 219, 219);     
+}
+.text-neutral-1 {
+    color: var(--color-neutral-1) !important;
+}
+.text-neutral-2 {
+    color: var(--color-neutral-2) !important;
+}
+.text-neutral-3 {
+    color: var(--color-neutral-3) !important;
+}
+
+.main-container{
+    width: 1170px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bold{
+    font-weight: 500;
+}
+.medium{
+    font-weight: 700;
+}
+.lh1 {
+    line-height: 1em;
+}
+.lh0{
+    line-height: 10px;
+}
+
+.ls-{
+    letter-spacing: 1px;
+}
+.ls-15{
+    letter-spacing: 1.5px;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+.bg-opcity-white{
+    background-color: rgb(255 255 255 / 55%);
+}
+.bg-black{
+    background-color: var(--color-neutral-1)
+}
+.bg-main{
+    
+    background-image: url(../image/bg/bg_cash.png);
+    overflow: initial;
+    background-color: rgb(255, 255, 255);   
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: repeat repeat !important;
+    background-position: center center;
+}
+.is-countdown {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.countdown-row {
+    clear: both;
+    width: 100%;
+    padding: 0px 2px;
+    text-align: center;
+}
+.countdown-section:first-child {
+    padding-left: 0px;
+}
+.countdown-section {
+    display: block;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.wideCountdownSize2.cdStyleCircleLine .countdown-amount {
+    border-radius: 100px;
+    min-width: 67px;
+}
+.cdBlack.cdStyleCircleLine .countdown-amount {
+    color: rgb(46 46 46);
+    border: 4px solid rgb(46 46 46);
+}
+.cdStyleCircleLine .countdown-amount {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wideCountdownSize2 .countdown-amount {
+    font-size: 27px;
+    min-width: 69px;
+}
+.countdown-amount {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.wideCountdownSize2 .countdown-period {
+    font-size: 10px;
+}
+.cdLabelBold .countdown-period {
+    font-weight: bold;
+}
+.countdown-period {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgb(0 0 0 / 40%);
+}
+.li-style li{
+    padding-bottom: 6px;
+    list-style-type: none;
+    margin-bottom: 6px;
+    padding-left: 2em;
+}
+li i{
+    margin-left: -2em;
+    margin-top: 6px;
+}
+.bg-footer{
+   background-color: #161616f2;
+}
+footer li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+@media (min-width: 320px) {
+    .fs-md-20{
+        font-size: 1.25rem;
+    }    
+    .fs-12{
+        font-size: 0.75rem
+        }
+    .fs-13{
+        font-size: 0.813rem
+    }
+    .fs-md-22{
+        font-size: 1.375rem
+    }   
+}
+@media (min-width: 480px) {
+    .fs-md-20{
+        font-size: 1.25rem;
+    }
+    .fs-12{
+    font-size: 0.75rem
+    }
+    .fs-13{
+        font-size: 0.813rem
+    }
+    .fs-md-22{
+        font-size: 1.375rem
+    }
+ }
+
+@media (min-width: 768px) {
+    .fs-md-20{
+        font-size: 1.25rem;
+    }
+    .fs-md-12 {
+        font-size: 0.75;
+    }
+    .fs-md-22{
+        font-size: 1.375rem
+    }
+}
+
+@media (min-width: 992px) {
+    .fs-12{
+    font-size: 0.75rem
+    }
+    .fs-13{
+        font-size: 0.813rem
+    }
+    .fs-18{
+        font-size: 1.125rem
+    }
+    .fs-20{
+        font-size: 1.25rem
+    }
+    .fs-22{
+        font-size: 1.375rem
+    }
+    .fs-24{
+        font-size: 1.5rem
+    }
+    .fs-28{
+        font-size: 1.75rem
+    }
+    .fs-26{
+        font-size: 2.25rem
+    }
+    .fs-42{
+        font-size: 2.625rem;
+    }
+    .fs-46{
+        font-size: 2.875rem;
+    }
+    .fs-52{
+        font-size: 3.25rem;
+    }
+    .fs-54{
+        font-size: 3.375rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fs-12{
+        font-size: 0.75rem;
+        line-height: 15px;
+
+    }
+    .fs-13{
+        font-size: 0.813rem
+    }
+    .fs-18{
+        font-size: 1.125rem
+    }
+    .fs-20{
+        font-size: 1.25rem
+    }
+    .fs-22{
+        font-size: 1.375rem
+    }
+    .fs-24{
+        font-size: 1.5rem
+    }
+    .fs-28{
+        font-size: 1.75rem
+    }
+    .fs-26{
+        font-size: 2.25rem
+    }
+    .fs-42{
+        font-size: 2.625rem;
+    }
+    .fs-46{
+        font-size: 2.875rem;
+    }
+    .fs-52{
+        font-size: 3.25rem;
+    }
+    .fs-54{
+        font-size: 3.375rem;
+    }
+}

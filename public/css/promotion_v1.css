@@ -1,0 +1,112 @@
+@media (max-width: 840px) { 
+    .container {
+        margin-top: 0 !important;
+    }
+    .footer-link{ text-align:center; }
+    .footer-logo{ float:none !important;margin:10px auto !important; display:block; }
+
+    .topheader{ display:none; }
+    .topheader2{
+		font-size: 22px !important;
+	    font-family: "Roboto",sans-serif;
+	    font-weight: normal !important;
+	    text-align: center;
+	    margin-top: 20px;
+	    margin-bottom: 0;
+	    display:block !important;
+	}
+	.topheadersub{
+	    font-size: 14px !important;
+	}
+}
+.btn-warning{
+	color: #fff;
+    background-color: #ffbf00;
+    border-color: #ffc000;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px #292929;
+    -webkit-box-shadow: 1px 1px 1px 1px #BDBDBD !important;
+	box-shadow: 1px 1px 1px 1px #BDBDBD !important;
+}
+.btn-warning:hover{
+    text-shadow:none;
+}
+.modal-content header h5 {
+	width:100%;
+	text-align:center;
+	font-size:0.8rem;
+}
+.modal-content header button.close {
+	display:none;
+}
+.progress .progress-bar { background-color: rgb(80, 146, 24) !important; }
+
+.topheader2{ display:none; }
+.topheader{
+	font-size: 36px !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.topheadersub{
+    text-align: center;
+    font-style: italic;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.timercss{
+    margin-bottom: 0;
+    text-align: center;
+}
+.datelabelcss{
+	font-size: 14px;
+    font-weight: inherit;
+    font-family: "Maven Pro",sans-serif;
+    text-align: center;
+}
+.btn-webinar, .btn-webinar:hover{
+	background:#a3c243;
+	color:#fff;
+    font-weight: 400;
+    font-family: Lato;
+    width:100%;
+    font-size: 28px;
+    border-radius: 6px;
+    padding: 20px 25px;
+}
+
+.afterbuttonlabel{
+	font-weight: 300;text-align: center;font-style: italic;font-family: "Roboto",sans-serif;
+}
+.speakername{
+	font-size: 20px !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.speakertitle{
+    font-weight: 100;
+    font-size: 20px;
+    color:#00000099;
+}
+
+.footerlink{
+	color:#a8a8a8 !important;
+    text-decoration: none !important;
+    font-weight: 400;
+    font-family: Roboto;
+}
+.footerlabel{
+	color:#808080 !important;
+    text-decoration: none !important;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    padding:0
+}
