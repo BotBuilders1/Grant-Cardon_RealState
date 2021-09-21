@@ -37,7 +37,7 @@ body{
     font-weight: 500;
 }
 .medium{
-    font-weight: 700;
+    font-weight: 600;
 }
 .lh1 {
     line-height: 1em;
@@ -117,6 +117,27 @@ body{
     font-weight: bold;
     padding: 10px;
     margin-bottom: 10px;
+}
+.how{
+    padding-top: 60px;
+}
+.red{
+    color: rgb(228, 59, 44);
+}
+.btn-secure{
+    background-color:rgb(80, 173, 55);
+}
+.btn-secure:hover{
+    background-color:#65b74f;
+}
+.grant1-down{
+    margin-top: 49px;
+}
+.grant1{
+    padding-left: 212px;
+}
+.grant1-right{
+    padding-right: 255px;
 }
 .wideCountdownSize2 .countdown-period {
     font-size: 10px;
@@ -245,7 +266,7 @@ footer li{
         font-size: 1.25rem
     }
     .fs-22{
-        font-size: 1.375rem
+        font-size: 22px;
     }
     .fs-24{
         font-size: 1.5rem
@@ -266,6 +287,6 @@ footer li{
         font-size: 3.25rem;
     }
     .fs-54{
-        font-size: 3.375rem;
+        font-size: 52px;
     }
 }

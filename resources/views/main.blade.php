@@ -13,7 +13,7 @@
             </div>
             <div class="container">
                 <div class="text-uppercase fs-54 fs-md-20 px-sm-5 lh1 px-3">
-                    LEARN HOW TO <span class="medium text-danger">INCREASE YOUR INCOME</span> WITH MY SIMPLE &amp;
+                    LEARN HOW TO <span class="medium red">INCREASE YOUR INCOME</span> WITH MY SIMPLE &amp;
                     PROVEN NO
                     BS
                     STEP-BY-STEP FORMULA
@@ -33,23 +33,23 @@
 
         <section class="px-lg-4">
             <div class="bg-opcity-white fs-42 lh-1 text-center px-sm-5 pt-3 mx-auto" style="max-width: 1200px;">
-                <span class="medium text-danger">Join The 10X Income Workshop</span>, I Will Teach You How To
-                <span class="medium text-danger"> Crush Your Income Goals </span> and
-                <span class="medium text-danger"> Become Financially Free
+                <span class="medium red">Join The 10X Income Workshop</span>, I Will Teach You How To
+                <span class="medium red"> Crush Your Income Goals </span> and
+                <span class="medium red"> Become Financially Free
                 </span>(Without The Fluff)!
 
                 <div class="text-left fs-24 mb-5 mt-sm-5 mt-4 px-3">
                     Today is the day you start taking control of your life. If you are struggling to get ahead in a
                     world
                     where the system is rigged against you, I want to help you by giving you<span
-                        class="text-danger medium">
+                        class="red medium">
                         the blueprint to achieve your
                         income goals.
                     </span> <br> <br>
 
                     Whether you are broke and want to make money or you already have money but want to learn how to
-                    <span class="text-danger medium"> multiply your income
-                    </span>, this 10X income webclass will teach you <span class="text-danger medium"> how to reach your
+                    <span class="red medium"> multiply your income
+                    </span>, this 10X income webclass will teach you <span class="red medium"> how to reach your
                         income goals </span>- no matter how big
                     they are! <br> <br>
 
@@ -74,34 +74,34 @@
                             </span>
                         </a>
                     </div>
-                    <div class="row mx-auto">
+                    <div class="row " style="padding-top:15px;">
                         <div class="col-md-4 col-12 text-center">
                             <img src="{{ asset('image/gc/grant_2.png')}}" class="img-fluid p-lg-0 p-sm-5 p-4" alt="">
                         </div>
                         <div class="col">
-                            <div class="text-danger fs-42 medium">
+                            <div class="red fs-42 medium">
                                 HERE'S WHAT YOU'LL LEARN:
                             </div>
                             <ul class="list-unstyled li-style text-left">
                                 <li class="fs-24">
-                                    <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                    <i class="fa fa-fw fa-check red float-left"></i>
                                     Increase Your Income And Reach Your Goals Using A Personalized Step-by-Step Plan
                                 </li>
                                 <li class="fs-24">
-                                    <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                    <i class="fa fa-fw fa-check red float-left"></i>
                                     Double Your Income In Your Current Career
                                 </li>
                                 <li class="fs-24">
-                                    <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                    <i class="fa fa-fw fa-check red float-left"></i>
                                     How To Know What To Pay
                                 </li>
                                 <li class="fs-24">
-                                    <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                    <i class="fa fa-fw fa-check red float-left"></i>
                                     ​Set Yourself Up For Success By Understanding What’s
                                     Holding You Back From Increasing Your Income&nbsp;<br>
                                 </li>
                                 <li class="fs-24">
-                                    <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                    <i class="fa fa-fw fa-check red float-left"></i>
                                     ​Gain The Confidence To Reach Your Full Potential And
                                     Eliminate Financial Stress With Proper Goal Setting<br>
                                 </li>
@@ -110,20 +110,20 @@
                     </div>
                 </div>
 
-                <div class="row mx-auto mb-4 text-left">
+                <div class="row mx-auto  mb-4 text-left how">
                     <div class="col-lg-8">
-                        <div class="fs-42 text-danger medium text-sm-left text-center">HOW CAN YOU PARTICIPATE:</div>
+                        <div class="fs-42 red medium text-sm-left text-center">HOW CAN YOU PARTICIPATE:</div>
                         <ul class="list-unstyled li-style">
                             <li class="fs-24">
-                                <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                <i class="fa fa-fw fa-check red float-left"></i>
                                 Click Below To Sign Up
                             </li>
                             <li class="fs-24">
-                                <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                <i class="fa fa-fw fa-check red float-left"></i>
                                 Show Up Open Minded With A Great Attitude And Let Me Give You The Blueprint!
                             </li>
                             <li class="fs-24">
-                                <i class="fa fa-fw fa-check text-danger float-left"></i>
+                                <i class="fa fa-fw fa-check red float-left"></i>
                                 You Cannot Buy This Training Anywhere
                             </li>
                         </ul>
