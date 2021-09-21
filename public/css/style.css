@@ -130,15 +130,7 @@ body{
 .btn-secure:hover{
     background-color:#65b74f;
 }
-.grant1-down{
-    margin-top: 49px;
-}
-.grant1{
-    padding-left: 212px;
-}
-.grant1-right{
-    padding-right: 255px;
-}
+
 .wideCountdownSize2 .countdown-period {
     font-size: 10px;
 }
@@ -289,4 +281,13 @@ footer li{
     .fs-54{
         font-size: 52px;
     }
+    .grant1-down{
+    margin-top: 49px;
+}
+.grant1{
+    padding-left: 212px;
+}
+.grant1-right{
+    padding-right: 255px;
+}
 }
