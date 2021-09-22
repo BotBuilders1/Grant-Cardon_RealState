@@ -15,7 +15,7 @@
 </head>
 
 <body class="bg-main">
-    <div id="app" class="w-100 h-100">
+    <div id="app">
             @yield('content')
             
     </div>

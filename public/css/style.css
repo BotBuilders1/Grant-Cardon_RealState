@@ -7,15 +7,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 html{
-    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
+    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;
 }
 body{
-    -webkit-font-smoothing:antialiased;color:inherit !important
+    -webkit-font-smoothing:antialiased;color:inherit !important;
+    font-family: 'Montserrat', sans-serif;
 }
 :root {   
     --color-neutral-1: #000;
     --color-neutral-2: #dbdbdb;     
     --color-neutral-3: rgb(219, 219, 219);     
+    --color-neutral-4: #e43b2c;     
+    --color-neutral-5: #50ad37;     
+    --color-neutral-6: #080808;     
 }
 .text-neutral-1 {
     color: var(--color-neutral-1) !important;
@@ -26,6 +30,15 @@ body{
 .text-neutral-3 {
     color: var(--color-neutral-3) !important;
 }
+.text-neutral-4 {
+    color: var(--color-neutral-4) !important;
+}
+.text-neutral-5 {
+    color: var(--color-neutral-5) !important;
+}
+.text-neutral-6 {
+    color: var(--color-neutral-6) !important;
+}
 
 .main-container{
     width: 1170px;
@@ -34,10 +47,10 @@ body{
     margin-left: auto;
 }
 .bold{
-    font-weight: 500;
+    font-weight: 700;
 }
 .medium{
-    font-weight: 600;
+    font-weight: 500;
 }
 .lh1 {
     line-height: 1em;
@@ -62,8 +75,7 @@ body{
     background-color: var(--color-neutral-1)
 }
 .bg-main{
-    
-    background-image: url(../image/bg/bg_cash.png);
+    background: url('../image/bg/bg_cash.png');
     overflow: initial;
     background-color: rgb(255, 255, 255);   
     background-size: cover !important;
@@ -118,19 +130,6 @@ body{
     padding: 10px;
     margin-bottom: 10px;
 }
-.how{
-    padding-top: 60px;
-}
-.red{
-    color: rgb(228, 59, 44);
-}
-.btn-secure{
-    background-color:rgb(80, 173, 55);
-}
-.btn-secure:hover{
-    background-color:#65b74f;
-}
-
 .wideCountdownSize2 .countdown-period {
     font-size: 10px;
 }
@@ -156,6 +155,13 @@ li i{
 .bg-footer{
    background-color: #161616f2;
 }
+.btn-secure{
+    background-color:#50ad37;
+}
+.btn-secure:hover{
+    background-color:#65b74f;
+}
+
 footer li{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -167,7 +173,7 @@ footer li{
         font-size: 1.25rem;
     }    
     .fs-12{
-        font-size: 0.75rem
+        font-size: 0.67rem;
         }
     .fs-13{
         font-size: 0.813rem
@@ -181,7 +187,7 @@ footer li{
         font-size: 1.25rem;
     }
     .fs-12{
-    font-size: 0.75rem
+    font-size: 0.67rem;
     }
     .fs-13{
         font-size: 0.813rem
@@ -205,7 +211,7 @@ footer li{
 
 @media (min-width: 992px) {
     .fs-12{
-    font-size: 0.75rem
+    font-size: 0.67rem;
     }
     .fs-13{
         font-size: 0.813rem
@@ -220,7 +226,7 @@ footer li{
         font-size: 1.375rem
     }
     .fs-24{
-        font-size: 1.5rem
+        font-size: 1.4rem;
     }
     .fs-28{
         font-size: 1.75rem
@@ -244,24 +250,25 @@ footer li{
 
 @media (min-width: 1200px) {
     .fs-12{
-        font-size: 0.75rem;
-        line-height: 15px;
-
+        font-size: 0.67rem;
     }
     .fs-13{
         font-size: 0.813rem
     }
     .fs-18{
-        font-size: 1.125rem
+        text-align: center;
+        font-size: 18px;
+       
+
     }
     .fs-20{
         font-size: 1.25rem
     }
     .fs-22{
-        font-size: 22px;
+        font-size: 1.375rem
     }
     .fs-24{
-        font-size: 1.5rem
+        font-size: 1.4rem;
     }
     .fs-28{
         font-size: 1.75rem
@@ -279,15 +286,6 @@ footer li{
         font-size: 3.25rem;
     }
     .fs-54{
-        font-size: 52px;
+        font-size: 3.375rem;
     }
-    .grant1-down{
-    margin-top: 49px;
-}
-.grant1{
-    padding-left: 212px;
-}
-.grant1-right{
-    padding-right: 255px;
-}
 }

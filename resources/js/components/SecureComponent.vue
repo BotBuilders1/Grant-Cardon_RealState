@@ -1,24 +1,24 @@
 <template>
-	<section class="py-4">
+      <section class="container pt-4">
             <div class="row mx-auto">
-                <div class="col-lg-5 text-center">
-                    <div class="d-lg-block d-none grant1-down">
+                <div class="col-lg-4 text-center">
+                    <div class="d-lg-block d-none">
                         <div><img :src="'/image/gc/grant_1.png'" class="img-fluid grant1" style="max-height: 700px;" alt="">
                         </div>
-                        <div style="margin-top: -240px;">
-                            <img :src="'image/gc/grant_4.png'" style="max-height: 120px;" alt="" class="grant1">
+                        <div style="margin-top: -225px;">
+                         <img :src="'image/gc/grant_4.png'" style="max-height: 120px;" alt="" class="grant1">
                         </div>
                     </div>
                 </div>
-                <div class="col text-center grant1-right">
+                <div class="col text-center px-sm-4">
                     <div class="px-md-0 px-5">
-                        <hr class="mx-auto" style="max-width: 686px;">
+                        <hr class="mx-auto w-75 mt-0" style="max-width: 686px;">
                     </div>
                     <div class="d-lg-block d-none">
                         <div class="fs-18 lh1">
                             GRANT CARDONE ®
                         </div>
-                        <div class="medium fs-52 red lh1">
+                        <div class="medium fs-52 text-neutral-4 lh1">
                             10X INCOME
                         </div>
                         <div class="fs-42 lh1">
@@ -32,19 +32,18 @@
                         <img :src="'image/gc/grant_5.png'" class="img-fluid px-sm-5 px-3" alt="">
                     </div>
                     <div class="px-md-0 px-5">
-                        <hr class="mx-auto " style="max-width: 686px;">
+                        <hr class="mx-auto w-75" style="max-width: 686px;">
                     </div>
                     <div class="fs-22 mb-3 d-lg-block d-none">
-                        Find Out What You Need To Do Right Now To Multiply Your</br>
-						Income In Any Economy So You Can Live
-                        The Life You Want</br> And I Will Show You How To Create A Life Of Freedom.
+                        Find Out What You Need To Do Right Now To Multiply Your Income In Any Economy So You Can Live
+                        The Life You Want And I Will Show You How To Create A Life Of Freedom.
                     </div>
                     <div class="fs-22 mb-3 d-lg-none d-block">
-                        Find Out What You Need To Do Right Now To <span class="text-danger medium">Multiply Your
+                        Find Out What You Need To Do Right Now To <span class="text-neutral-4 medium">Multiply Your
                             Income</span>
-                        In Any Economy So You Can <span class="text-danger medium">Live
+                        In Any Economy So You Can <span class="text-neutral-4 medium">Live
                             The Life You Want</span> And I Will Show You How To Create A <span
-                            class="text-danger medium">Life
+                            class="text-neutral-4 medium">Life
                             Of Freedom</span>.
                     </div>
                     <div class="px-md-0 px-5">
@@ -54,7 +53,7 @@
                         MULTIPLE START TIMES AVAILABLE!
                     </div>
                     <div class="fs-22">
-                        <span class="medium text-danger">HURRY!</span> Register For The Next Training...
+                        <span class="medium text-neutral-4">HURRY!</span> Register For The Next Training...
                     </div>
                     <div class="de elCountdownEvergreen elAlign_center elMargin0 ui-droppable de-editable"
                         id="tmp_countdown_evergreen-55212-163" data-de-type="countdown-evergreen"
@@ -73,7 +72,7 @@
                                         class="countdown-period">Second</span></span></span>
                         </div>
                     </div>
-                    <div class="my-4">
+                    <div class="mt-3 mb-5">
                         <a href="#open-popup"
                             class="btn-secure text-white px-sm-5 px-3 py-3 rounded-pill fs-26 fs-md-22 d-lg-block d-none"
                             target="_blank">
@@ -91,10 +90,11 @@
                             </span>
                         </a>
                     </div>
-                    <div class="text-center d-lg-none d-block mt-5">
-                        <img :src="'image/gc/grant_6.png'" class="img-fluid" style="max-height: 100px;" alt="">
+                    <div class="text-center d-lg-none d-block mt-5 mb-5">
+                      <img :src="'image/gc/grant_6.png'" class="img-fluid" style="max-height: 100px;" alt="">
                     </div>
                 </div>
             </div>
         </section>
+
 </template>
